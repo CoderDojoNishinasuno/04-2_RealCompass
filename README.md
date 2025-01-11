@@ -22,3 +22,8 @@ MakeCode でこのリポジトリを編集します。
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## 説明
+* 北に矢印が向くコンパス(方位磁針)です
+* キャリブレーションが行われていないと "Tile ...."というメッセージが出るので、LEDが全て点灯するように、micro:bitを前後左右に傾けてください
+* 数字を出すようにすると、北を0度とした角度が表示されます
